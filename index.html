@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedar Pattanshetti - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/scrollreveal"></script>
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <h1 class="logo">Kedar <span>Pattanshetti</span></h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h2 class="animate">Hi, I'm Kedar</h2>
+            <p class="animate">DevOps | Web Development | Data Analysis</p>
+            <a href="#projects" class="btn animate">View My Work</a>
+        </div>
+    </header>
+    
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Passionate DevOps Engineer with experience in CI/CD, cloud infrastructure, and automation. Skilled in AWS, Docker, Kubernetes, and Terraform.</p>
+    </section>
+    
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JS</div>
+            <div class="skill">Linux</div>
+            <div class="skill">AWS</div>
+            <div class="skill">Docker</div>
+            <div class="skill">Kubernetes</div>
+            <div class="skill">Terraform</div>
+            <div class="skill">Python</div>
+            <div class="skill">Jenkins</div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>CI/CD Pipeline for To-Do List</h3>
+            <p>Automated build and deployment using Jenkins, Docker, and Kubernetes.</p>
+            <a href="https://github.com/kedar-pp/todo-list.git" target="_blank" class="link">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Sales Data Analysis Dashboard</h3>
+            <p>Data analysis using Python and Power BI for business insights.</p>
+            <a href="https://github.com/kedar-pp/Sales-Analysis-Project-MeriSkill.git" target="_blank" class="link">View on GitHub</a>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: kedarpattanshetti.skn.comp@gmail.com</p>
+        <p>Phone: +91 9022403505</p>
+        <a href="https://linkedin.com/in/kedar-pattanshetti-565921325" target="_blank" class="link">LinkedIn</a>
+    </section>
+    
+    <script>
+        ScrollReveal().reveal('.animate', { delay: 200, duration: 1000, distance: '50px', origin: 'bottom' });
+    </script>
+</body>
+</html>
